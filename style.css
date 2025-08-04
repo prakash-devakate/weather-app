@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #0c1324;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.main {
+  height: 85vh;
+  width: 85vw;
+  background-color: #060c1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6%;
+}
+
+.search {
+  height: 50px;
+  width: 420px;
+  background-color: #0e1421;
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  bottom: 40px;
+}
+
+.ri-search-line {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 8px;
+  padding: 6px;
+}
+
+input {
+  all: unset;
+  width: 276px;
+  height: 24px;
+  margin: auto;
+  position: relative;
+  right: 42px;
+  color: #076b73;
+}
+
+.mini-con {
+  height: 60vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.temp {
+  height: 40vh;
+  width: 35vw;
+  display: flex;
+  background-color: #0e1421;
+  border-radius: 26px;
+  margin: 15px 14px;
+}
+
+.temp-card {
+  height: 100%;
+  width: 30%;
+}
+.temp1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.location {
+  height: 40px;
+  width: 118px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 19px;
+  background-color: #742bec;
+  margin: 10px 3px;
+}
+
+.gps-logo {
+  height: 25px;
+}
+
+.country {
+  font-size: 16px;
+  position: relative;
+  right: 18px;
+}
+
+.days {
+  margin: 10px 3px;
+  font-size: 43px;
+  font-weight: 400;
+  position: relative;
+  bottom: 10px;
+}
+.date {
+  position: relative;
+  bottom: 14px;
+  margin: 10px 3px;
+}
+
+.temprature {
+  margin: 10px 3px;
+  font-size: 70px;
+}
+
+.temp2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  position: relative;
+}
+
+.ri-cloud-line {
+  font-size: 40px;
+  opacity: 0.64;
+}
+
+.ri-sun-foggy-fill {
+  font-size: 40px;
+  opacity: 0.64;
+  position: absolute;
+  bottom: 4px;
+  right: -42px;
+}
+
+.temp3 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 36px;
+}
+
+.cloud-img {
+  height: 80%;
+  position: relative;
+  opacity: 0.67;
+}
+
+img {
+  height: 40px;
+}
+
+.invert {
+  filter: invert(0.56);
+}
+
+.highlight {
+  height: 400px;
+  width: 423px;
+  margin: 15px 14px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #111a2c;
+  border-radius: 20px;
+}
+
+.highlight-con {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.highlight-card {
+  height: 140px;
+  width: 150px;
+  margin: 10px 10px;
+  background-color: #0e1421;
+  border-radius: 20px;
+}
+
+.heading-3 {
+  margin: auto;
+  padding: auto;
+}
+.card-text {
+  margin: 5px 5px;
+  padding: 2px;
+  opacity: 0.88;
+}
+
+.num {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+  margin: 5px;
+}
+.num1 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 33px;
+}
+
+.nn {
+  position: relative;
+  top: 46px;
+}
+.nnn {
+  position: relative;
+  top: 27px;
+}
+
+@media (max-width: 925px) {
+  .body {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #060c1a;
+  }
+  .main {
+    position: relative;
+  }
+
+  .search {
+    height: 50px;
+    width: 90vw;
+    background-color: #111a2c;
+    margin: auto;
+    position: relative;
+    right: 8px;
+  }
+
+  input {
+    width: 172px;
+  }
+
+  .mini-con {
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 80px;
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .temp {
+    height: 48vh;
+    width: 90vw;
+    margin: auto;
+    background-color: #111a2c;
+  }
+
+  .temp3 {
+    align-items: center;
+  }
+  .cloud-img {
+    height: 15vh;
+    position: relative;
+    bottom: 48px;
+  }
+  .ri-sun-foggy-fill {
+    right: -75px;
+  }
+
+  .ri-cloud-line {
+    position: relative;
+    top: 34px;
+  }
+  .date {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1134px) {
+  body {
+    background-color: #060c1a;
+  }
+
+  .mini-con {
+    flex-wrap: wrap;
+  }
+  .temp {
+    background-color: #111a2c;
+  }
+}
+
+@media (max-width: 372px) {
+  .highlight {
+    height: 48vh;
+  }
+
+  .highlight-card {
+    margin: 4px;
+  }
+}

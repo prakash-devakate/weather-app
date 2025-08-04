@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather app</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="search">
+        <i class="ri-search-line"></i>
+        <input
+          type="text"
+          class="input"
+          placeholder="Search City...."
+          spellcheck="false"
+        />
+      </div>
+      <div class="mini-con">
+        <div class="temp">
+          <div class="temp-card temp1">
+            <div class="location">
+              <img
+                class="invert gps-logo"
+                src="/images/maps-and-flags.png"
+                alt="location-icon"
+              />
+              <h4 class="country">India</h4>
+            </div>
+            <div>
+              <h3 class="days">Monday</h3>
+              <p class="date">24 Dec, 2024</p>
+            </div>
+            <div>
+              <div class="temprature">-°C</div>
+            </div>
+          </div>
+          <div class="temp-card temp2">
+            <i class="ri-cloud-line"></i>
+            <i class="ri-sun-foggy-fill"></i>
+          </div>
+          <div class="temp-card temp3">
+            <img
+              class="cloud-img"
+              src="images/cloud img.png"
+              alt="cloud-image"
+            />
+          </div>
+        </div>
+        <div class="highlight">
+          <h3 class="heading-3">Today Highlights</h3>
+          <div class="highlight-con">
+            <div class="highlight-card">
+              <div class="card-text">Chance of Rain</div>
+              <div class="num1 nn">-</div>
+            </div>
+            <div class="highlight-card">
+              <div class="card-text">UV Index</div>
+              <img class="invert" src="images/uv-index.png" alt="uv-index" />
+              <div class="uv-index-num num1">-</div>
+            </div>
+            <div class="highlight-card">
+              <div class="card-text">Wind Status</div>
+              <img class="invert" src="images/wind.png" alt="wind-icon" />
+              <div class="wind-status-num num">- km/h</div>
+            </div>
+            <div class="highlight-card">
+              <div class="card-text">Humidity</div>
+              <i class="ri-water-percent-line invert"></i>
+              <div class="Humidity-num num nnn">- g/m³</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
