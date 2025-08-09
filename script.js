@@ -60,10 +60,3 @@ let dateOrg = `${dd} ${mm}, ${yyyy} `;
 day.innerText = days;
 date1.innerText = dateOrg;
 
-document.onkeydown = function (e) {
-  if (e.key === "F12" || 
-      (e.ctrlKey && e.shiftKey && (e.key === "I" || e.key === "J" || e.key === "C")) || 
-      (e.ctrlKey && e.key === "U")) {
-    return false;
-  }
-};
